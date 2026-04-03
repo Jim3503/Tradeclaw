@@ -1,7 +1,6 @@
 # Financial Memory System for Tradeclaw
 
-A sophisticated three-layer RAG (Retrieval-Augmented Generation) memory system designed for AI trading agents, inspired by Claude Code's memory architecture and Anthropic's contextual retrieval best practices.
-
+A sophisticated three-layer RAG (Retrieval-Augmented Generation) memory system designed for AI trading agents.
 ## Features
 
 ### 🧠 Three-Layer Memory Architecture
