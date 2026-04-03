@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "89578f543a0a",
+      "situation": "测试情境",
+      "recommendation": "测试建议",
+      "rationale": "测试理由",
+      "confidence": "HIGH",
+      "scope": {
+        "agent_roles": [
+          "TRADER"
+        ],
+        "tickers": [],
+        "sectors": [
+          "Technology"
+        ],
+        "market_regimes": [
+          "RISK_OFF"
+        ],
+        "time_horizons": [
+          "SWING_TRADING"
+        ]
+      },
+      "timestamp": "2026-04-03T18:05:03.664381",
+      "source_agent": "TRADER",
+      "outcome": null,
+      "effectiveness": 0.85,
+      "verified": true,
+      "tags": [],
+      "market_conditions": null
+    }
+  ]
+}

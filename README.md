@@ -1,8 +1,24 @@
 # Tradeclaw Crew
 
-Welcome to the Tradeclaw Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Tradeclaw Crew project, powered by [crewAI](https://crewai.com). This is an advanced multi-agent AI trading analysis system with a sophisticated three-layer memory architecture for continuous learning and improved decision-making.
 
-## Installation
+## Features
+
+### 🤖 Multi-Agent Trading System
+- **Data Fetcher Agent**: Retrieves real-time market data, hot sectors, and stock prices
+- **Narrative Analyst**: Analyzes market narratives and identifies key themes
+- **Technical Analyst**: Provides technical analysis with momentum indicators
+- **Report Compiler**: Integrates all analysis into comprehensive daily reports
+
+### 🧠 Advanced Memory System
+- **Three-Layer Memory Architecture**: Policy, Episodic, and Reflection memories
+- **Intelligent Retrieval**: BM25-based search with scope filtering
+- **Continuous Learning**: Outcome tracking and effectiveness validation
+- **Prompt Optimization**: Structured for efficient LLM consumption
+
+For detailed information about the memory system, see [MEMORY_README.md](MEMORY_README.md)
+
+## Quick Start
 
 Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 

@@ -1,0 +1,96 @@
+{
+  "entries": [
+    {
+      "id": "6651e619c6bc",
+      "situation": "High inflation concerns + rising interest rates, technology stocks showing weakness",
+      "recommendation": "Reduce technology exposure, increase defensive positions (utilities, consumer staples)",
+      "rationale": "Rising interest rates depress growth stock valuations; defensive sectors outperform in risk-off environments",
+      "confidence": "HIGH",
+      "scope": {
+        "agent_roles": [],
+        "tickers": [],
+        "sectors": [
+          "Technology"
+        ],
+        "market_regimes": [
+          "RISK_OFF"
+        ],
+        "time_horizons": [
+          "SWING_TRADING"
+        ]
+      },
+      "timestamp": "2026-04-03T17:59:07.616212",
+      "source_agent": "PORTFOLIO_MANAGER",
+      "outcome": "Tech sector fell 8%, defensive sectors rose 3% - avoided significant losses",
+      "effectiveness": 0.85,
+      "verified": true,
+      "tags": [
+        "inflation",
+        "rates",
+        "sector_rotation",
+        "risk_off"
+      ],
+      "market_conditions": "CPI at 4.2%, Fed funds rate at 5.25%, market volatility elevated"
+    },
+    {
+      "id": "0de40e0b71e8",
+      "situation": "NVDA earnings beat expectations by 20%, guidance raised 15%, but stock down 5% pre-market on macro concerns",
+      "recommendation": "Buy the dip if stock holds above $400 support level with tight stop loss",
+      "rationale": "Strong fundamentals and guidance vs temporary macro fear; earnings beat creates positive setup",
+      "confidence": "HIGH",
+      "scope": {
+        "agent_roles": [],
+        "tickers": [],
+        "sectors": [],
+        "market_regimes": [
+          "EARNINGS_SEASON"
+        ],
+        "time_horizons": [
+          "DAY_TRADING"
+        ]
+      },
+      "timestamp": "2026-04-03T17:59:07.616272",
+      "source_agent": "TRADER",
+      "outcome": "Stock bounced off $402, rallied to $445 (+10.8%) in 3 days",
+      "effectiveness": 0.92,
+      "verified": true,
+      "tags": [
+        "earnings",
+        "dip_buying",
+        "NVDA",
+        "support_level"
+      ],
+      "market_conditions": "Earnings season, market concerns about Fed policy, NVDA reporting Q3"
+    },
+    {
+      "id": "87667b440230",
+      "situation": "Fed signals dovish pivot, market breadth expanding, small caps leading",
+      "recommendation": "Increase risk exposure, add small-cap and growth positions, reduce defensive holdings",
+      "rationale": "Dovish Fed typically benefits risk assets; market breadth improvement confirms regime change to risk-on",
+      "confidence": "MEDIUM",
+      "scope": {
+        "agent_roles": [],
+        "tickers": [],
+        "sectors": [],
+        "market_regimes": [
+          "RISK_ON"
+        ],
+        "time_horizons": [
+          "SWING_TRADING"
+        ]
+      },
+      "timestamp": "2026-04-03T17:59:07.616294",
+      "source_agent": "PORTFOLIO_MANAGER",
+      "outcome": "Portfolio increased exposure, small caps gained 15% over next month",
+      "effectiveness": 0.78,
+      "verified": true,
+      "tags": [
+        "fed",
+        "regime_change",
+        "risk_on",
+        "small_caps"
+      ],
+      "market_conditions": "Fed minutes show pivot concerns, market breadth expanding from 40% to 65%"
+    }
+  ]
+}
