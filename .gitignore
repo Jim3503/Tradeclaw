@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 项目特定
+.env
+*.log
+config/holdings.yaml
+!config/holdings.yaml.example
+reports/*
+!reports/example_daily_report.md
+memory/
+memory/kline_cache/
+memory/analysis_history/
+
+# 测试和调试
+test_*.py
+debug_*.py
+analyze_*.py
+*_backup.*
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# UV
+.uv/
+uv.lock
+
+# 备份文件
+*-backup.*
+*-old.*

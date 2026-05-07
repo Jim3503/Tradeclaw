@@ -1,0 +1,191 @@
+# 持仓配置文件
+# 修改这里的持仓数据即可自动更新分析
+
+# 当前持仓（用于技术分析）
+current_holdings:
+  - code: "601611"
+    name: "中国核建"
+    quantity: 700
+    cost: 13.040
+
+  - code: "600761"
+    name: "安徽合力"
+    quantity: 400
+    cost: 17.480
+
+  - code: "002255"
+    name: "海陆重工"
+    quantity: 1200
+    cost: 11.105
+
+  - code: "000601"
+    name: "韶能股份"
+    quantity: 200
+    cost: 7.165
+
+  - code: "601985"
+    name: "中国核电"
+    quantity: 100
+    cost: 9.110
+
+  - code: "003816"
+    name: "中国广核"
+    quantity: 200
+    cost: 4.675
+
+  - code: "601616"
+    name: "广电电气"
+    quantity: 400
+    cost: 4.783
+
+# 历史交易（用于复盘）
+closed_trades:
+  - code: "000157"
+    name: "中联重科"
+    buy_date: "2026-02-24"
+    buy_price: 10.030
+    sell_date: "2026-03-02"
+    sell_price: 9.920
+    quantity: 100
+    profit: "-1.10%"
+
+  - code: "600761"
+    name: "杭叉集团"
+    buy_date: "2026-02-24"
+    buy_price: 30.750
+    sell_date: "2026-03-02"
+    sell_price: 29.260
+    quantity: 100
+    profit: "-4.85%"
+
+  - code: "002136"
+    name: "安纳达"
+    buy_date: "2026-03-03"
+    buy_price: 14.930
+    sell_date: "2026-03-04"
+    sell_price: 13.910
+    quantity: 200
+    profit: "-6.83%"
+
+  - code: "002536"
+    name: "飞龙股份"
+    buy_date: "2026-03-02"
+    buy_price: 34.020
+    sell_date: "2026-03-03"
+    sell_price: 34.260
+    quantity: 100
+    profit: "+0.71%"
+
+  - code: "000657"
+    name: "中钨高新"
+    buy_date: "2026-03-24"
+    buy_price: 47.440
+    sell_date: "2026-04-07"
+    sell_price: 48.200
+    quantity: 100
+    profit: "+1.60%"
+
+  - code: "600150"
+    name: "中国船舶"
+    buy_date: "2026-04-07"
+    buy_price: 31.480
+    sell_date: "2026-04-14"
+    sell_price: 32.910
+    quantity: 100
+    profit: "+4.54%"
+
+  - code: "600150"
+    name: "中国船舶"
+    buy_date: "2026-04-13"
+    buy_price: 32.640
+    sell_date: "2026-04-14"
+    sell_price: 32.830
+    quantity: 100
+    profit: "+0.58%"
+
+  - code: "600150"
+    name: "中国船舶"
+    buy_date: "2026-04-13"
+    buy_price: 32.680
+    sell_date: "2026-04-14"
+    sell_price: 32.910
+    quantity: 100
+    profit: "+0.70%"
+
+  - code: "601899"
+    name: "紫金矿业"
+    buy_date: "2026-03-17"
+    buy_price: 32.293
+    sell_date: "2026-04-02"
+    sell_price: 33.310
+    quantity: 300
+    profit: "+3.15%"
+
+  - code: "601611"
+    name: "中国核建"
+    buy_date: "2026-03-23"
+    buy_price: 14.510
+    sell_date: "2026-03-24"
+    sell_price: 14.270
+    quantity: 200
+    profit: "-1.65%"
+
+  - code: "601611"
+    name: "中国核建"
+    buy_date: "2026-03-24"
+    buy_price: 14.750
+    sell_date: "2026-03-31"
+    sell_price: 14.010
+    quantity: 400
+    profit: "-5.02%"
+
+  - code: "002463"
+    name: "沪电股份"
+    buy_date: "2026-03-12"
+    buy_price: 76.880
+    sell_date: "2026-03-17"
+    sell_price: 89.570
+    quantity: 100
+    profit: "+16.51%"
+
+  - code: "603757"
+    name: "大元泵业"
+    buy_price: 50.520
+    sell_price: 45.500
+    profit: "-9.94%"
+
+  - code: "513310"
+    name: "中韩半导体ETF"
+    buy_date: "2026-01-29"
+    buy_price: 3.753
+    sell_date: "2026-03-23"
+    sell_price: 3.808
+    quantity: 1800
+    profit: "+1.47%"
+
+  - code: "513310"
+    name: "中韩半导体ETF"
+    buy_date: "2026-02-24"
+    buy_price: 3.748
+    sell_date: "2026-04-10"
+    sell_price: 3.823
+    quantity: 2500
+    profit: "+2.00%"
+
+  - code: "513310"
+    name: "中韩半导体ETF"
+    buy_date: "2026-03-04"
+    buy_price: 3.790
+    sell_date: "2026-04-10"
+    sell_price: 3.829
+    quantity: 800
+    profit: "+1.03%"
+
+  - code: "513310"
+    name: "中韩半导体ETF"
+    buy_date: "2026-03-04"
+    buy_price: 3.800
+    sell_date: "2026-04-10"
+    sell_price: 3.830
+    quantity: 800
+    profit: "+0.79%"

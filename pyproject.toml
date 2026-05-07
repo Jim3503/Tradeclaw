@@ -1,0 +1,24 @@
+[project]
+name = "tradeclaw"
+version = "2.0.0"
+description = "智能A股分析系统 - 基于CrewAI的多Agent协作框架"
+authors = [{ name = "吉米仔策略室" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=1.10.0"
+]
+
+[project.scripts]
+tradeclaw = "tradeclaw.main:run"
+run_crew = "tradeclaw.main:run"
+train = "tradeclaw.main:train"
+replay = "tradeclaw.main:replay"
+test = "tradeclaw.main:test"
+run_with_trigger = "tradeclaw.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
