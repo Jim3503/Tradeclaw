@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  **出品方：吉米仔策略室**
+  **出品方：《吉米仔策略室》公众号**
 
   [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -25,6 +25,9 @@
 - 📈 **交易复盘** - 自动统计胜率、盈亏比，总结经验教训
 
 ---
+
+## 核心框架
+![核心原理](images/v2.png)
 
 ## ✨ 主要功能
 
