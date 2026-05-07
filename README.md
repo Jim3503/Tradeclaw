@@ -27,7 +27,7 @@
 ---
 
 ## 核心框架
-![核心原理](images/v2.png)
+![核心原理](v2.png)
 
 ## ✨ 主要功能
 
@@ -343,9 +343,8 @@ MIT License
 
 ## 📧 联系方式
 
-- **出品方**：吉米仔策略室
-- **项目地址**：[GitHub Repository]
-
+- **出品方**：《吉米仔策略室》公众号
+- **邮件**：ming.ji@zju.edu.cn
 ---
 
 <div align="center">
