@@ -292,7 +292,6 @@ similar = history.get_similar_market(current_market, limit=3)
 3. **Technical Agent** - 技术分析专家（记忆增强）
 4. **Report Compiler** - 报告整合专家
 
-完整架构图生成Prompt见：`docs/ARCHITECTURE_DIAGRAM_PROMPT.md`
 
 ---
 
