@@ -27,9 +27,9 @@ config/holdings.yaml
 !config/holdings.yaml.example
 reports/*
 !reports/example_daily_report.md
-memory/
-memory/kline_cache/
-memory/analysis_history/
+# memory/
+# memory/kline_cache/
+# memory/analysis_history/
 
 # 测试和调试
 test_*.py
